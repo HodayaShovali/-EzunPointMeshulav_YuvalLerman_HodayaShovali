@@ -1,0 +1,133 @@
+﻿<!doctype html>
+<html lang="">
+<head>
+    <meta charset="utf-8" />
+    <title>נקודת איזון - צור קשר</title>
+    <meta name="description" content="פרויקט סיום יובל לרמן והודיה שובלי" />
+    <meta name="keywords" content="נקודת איזון, טיפול, הגשמה, סרטן, צפון" />
+    <meta name="author" content="ובל לרמן והודיה שובלי" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <!-- CSS -->
+    <!--<link href="styles/reset.css" rel="stylesheet" />-->
+    <link href="styles/contactUs.css" rel="stylesheet" />
+    <link rel="icon" href="./images/pinklogo.jpeg">
+
+
+    <!-- Scripts -->
+    <script src="jScripts/jquery-3.6.0.min.js"></script>
+    <script src="jScripts/JavaScript.js" type="text/javascript"></script>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <img src="images/pinklogo.jpeg" title="logo" id="logo" />
+        </header>
+        <nav id="mainNav" aria-label="תפריט ראשי" >
+            <ul>
+                <li> <a href="#" class="notWorking"> הסיפור שלנו </a> </li>
+                <li> <a href="treatment.html"> דרכי טיפול </a> 
+                    <ul>
+                <li><a href="#" class="notWorking">  בריאות טבעית </a></li>
+                <li><a href="#" class="notWorking">   עין הבדולח </a></li>
+                <li><a href="#" class="notWorking">   אימון רגשי </a></li>
+                </ul>
+                </li>
+                <li> <a href="hamitham.html"> המתחם שלנו </a>
+                    <ul>
+                        <li><a href="#" class="notWorking">   קצת עלינו </a></li>
+                        <li><a href="#" class="notWorking">    בריכת מים קרה </a></li>
+                        <li><a href="#" class="notWorking">    סאונה יבשה </a></li>
+                        </ul>
+                </li>
+                <li> <a href="#" class="notWorking"> אני מאמין </a> 
+                    <ul>
+                        <li><a href="#" class="notWorking">  כלים שרכשנו </a></li>
+                        <li><a href="#" class="notWorking">   ידע שצברנו </a></li>
+                        </ul>
+                </li>
+                <li> <a href="#" class="notWorking"> בואו להכיר אותנו </a>
+                    <ul>
+                       <li> <a href="#" class="notWorking">   המשפחה שלנו </a></li>
+                    </ul>
+                </li>
+        </ul>
+   
+</nav>
+        <nav aria-label="breadcrumbs" >
+            <ul class="breadcrumbs">
+                <li class="breadcrumbsItem"> <a href="index.html"> עמוד הבית</a></li>
+                <li class="breadcrumbsItem">  צור קשר</li>
+            </ul>
+        </nav>
+        <main>
+            <h1>צור קשר</h1>
+            <h2>נשמח לשמוע מכם: </h2>
+            <form id="form">
+                <p class="kochavit"> *שדה חובה  </p>
+                <label for="Name">
+                    <span class="kochavit">*</span>
+                    שם מלא:
+                    <br />
+                    <input type="text" class="tochen" placeholder="הקלד שם פרטי ושם משפחה" size="70" required />
+                </label>
+                <br />
+                <span class="kochavit">*</span>
+                מין
+                <br />
+                <label for="male" class="migdar"> <input type="radio" id="male" name="groupName" checked required> זכר</label>
+                <br />
+                <label for="female" class="migdar">
+                    <input type="radio" id="female" name="groupName" />נקבה</label>
+                    <br />
+                    <label for="other" class="migdar">
+                        <input type="radio" id="female" name="groupName" />אחר
+                    </label>
+                    <br />
+                    <label for="phonNumber" class="label">
+                        <span class="kochavit">*</span>
+                        מייל ליצירת קשר:
+                        <input type="email" class="tochen" placeholder="יש להקליד כתובת מייל" required size="70"  />
+                    </label>
+                    <fieldset class="label">
+                        <legend> סמנ/י את הטיפולים הרצויים:</legend>
+                        <input type="checkbox" class="tipulim"/> בריאות טבעית <br />
+                        <input type="checkbox" class="tipulim" /> עין הבדולח <br />
+                        <input type="checkbox" class="tipulim"/> אימון רגשי <br />
+                        <input type="checkbox" class="tipulim"/> פתיחת קלפי אור <br />
+                        <input type="checkbox" class="tipulim"/> קינסולוגיה <br />
+                    </fieldset>
+                    <label for="message" id="message" class="label">
+                        תוכן נוסף לפניה:
+                        <br />
+                        <textarea class="tochen" rows="5" cols="70" placeholder="כתוב כאן"></textarea>
+                        <br />
+                    </label>
+                    <label for="send">
+                        <input type="submit" value="שלח" id="send" />
+                    </label>
+
+
+</form>
+
+
+
+        </main>
+
+        <footer>
+            <a href="#top" class="TopPage">לראש העמוד</a>
+            <nav id="bottomNav" aria-label="תפריט משני">
+                <ul>
+                    <li> <a href="about.html"> אודות </a> </li>
+                    <li> <a href="contactUs.html"> צרו קשר </a> </li>
+                    <li> <a href="index.html"> לעמוד הבית </a> </li>
+                    <li> <a href="siteMap.html"> מפת האתר </a> </li>
+                </ul>
+
+            </nav>
+
+        </footer>
+
+
+    </div>
+</body>
+</html>
